@@ -1,0 +1,16 @@
+{
+  "name": "movs-eve-manufacturer",
+  "version": "1.0.0",
+  "description": "Moving Star's Manufacturer Supporting Tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eve",
+    "eveonline",
+    "manufacturer"
+  ],
+  "author": "Sanghyun Park (Nino Grande)",
+  "license": "MIT"
+}
