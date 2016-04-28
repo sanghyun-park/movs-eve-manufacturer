@@ -22,7 +22,7 @@ echo "Unzip EVE SDE zip file ..."
 unzip $1 -d data
 
 echo "Check if exist yaml files in data directory ..."
-NUM_OF_YAMLS=`ls -al data/*.yaml | wc -l`
+NUM_OF_YAMLS=`find data -name *.yaml | wc -l`
 if [ "$NUM_OF_YAMLS" = "0" ]; then
 	echo "There is no YAMLs. exit."
 	exit 1
